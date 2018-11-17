@@ -1,0 +1,1 @@
+COPY tblsupplier(supplier_id,first_name,last_name,email,phone_number) FROM '/var/www/html/generated/suppliers.csv' DELIMITER ',';

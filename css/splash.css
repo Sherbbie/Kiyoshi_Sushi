@@ -1,0 +1,53 @@
+body { 
+    background-image: url(../image/openScreen.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover; 
+    min-height: 100%; 
+    
+}
+
+.splash_button {
+    border-radius: 100px;
+    border: 3px solid black;
+    padding: 20px;
+    width: 97px;
+    height: 89px;
+    position: fixed;
+    top: 61%;
+    font-weight: bold;   
+    background-color: white;
+    font-size: 17px;
+    text-align: bottom;
+     
+}
+
+.enter {
+    right: 52%;
+    box-shadow: -1px 11px 1px 3px #141c14;	
+    color: #606f23;
+    position: fixed;
+}
+
+.login { 
+    left: 52%;
+    box-shadow: 1px 11px 1px 3px #141c14;	
+    color: #674f5e;
+    position: fixed;
+}
+
+.splash_button:hover, .splash_button:focus { 
+    text-decoration: none;
+    background-color:  #cc3700  ; 
+    color: white;
+}
+ 
+
+.logo {
+    top: 30%;
+    right: 30%;
+    position: fixed;
+    height: 25%; 
+    
+}

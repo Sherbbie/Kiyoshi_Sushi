@@ -1,0 +1,29 @@
+{
+  "name": "Kiyoshi Sushi",
+  "description": "Kiyoshi Sushi Bai website. Build for school project.",
+  "main": "index.php",
+  "keywords": [
+    "sushi",
+    "best",
+    "toronto",
+    "bai",
+    "Kiyoshi"
+  ],
+  "authors": [
+    "Sushi Bai DBAS Group"
+  ],
+  "license": "NA",
+  "homepage": "index.php",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.5.8",
+    "bootstrap": "^3.3.7"
+  }
+}

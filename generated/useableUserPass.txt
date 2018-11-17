@@ -1,0 +1,15 @@
+Disabled: 
+DisabledUser 
+password
+
+Admin:
+AdminForLife
+password
+
+Employee:
+EmployeeForLife
+password
+
+Customer: 
+customer
+password

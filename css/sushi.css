@@ -1,0 +1,125 @@
+ 	body {
+ 	    height: 100%;
+ 	    background-image: url('../image/Melamine-wood-001.png');
+ 	    font-family: 'Cormorant SC', serif;
+ 	}
+ 	html {
+ 	    height: 100%;
+ 	}
+ 	#sites {
+ 	    text-align: center;
+ 	    height: 46px;
+ 	    background-image: url('../image/Background.jpg');
+ 	}
+	
+	.outer{
+	  vertical-align: middle;
+	}
+	.outer img{
+	  display: inline-block;
+	  vertical-align: middle;
+	}
+	.table > tbody > tr > td {
+		border: none;
+	}
+	.table-border th, td {
+    border-top-color: #000000;
+	}
+	
+	.scrollable-menu {
+		  height: auto;
+		  max-height: 200px;
+		  overflow-x: hidden;
+	}
+
+	.scrollable-menu::-webkit-scrollbar {
+		  -webkit-appearance: none;
+		  width: 4px;
+	}
+	.scrollable-menu::-webkit-scrollbar-thumb {
+		  border-radius: 3px;
+		  background-color: lightgray;
+		  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.75);
+	}
+ 	.navbar {
+ 	    margin: 0;
+ 	    border-radius: 0;
+ 	}
+ 	.footerShow {
+ 	    background-color: #f2f2f2;
+ 	    height: 49px;
+ 	    text-align: right;
+ 	    background-color: #232323;
+ 	    color: #FEFEFF;
+ 	    position: absolute;
+ 	    width: 100%;
+ 	}
+ 	.pageInput {
+ 	    padding-bottom: 45px;
+ 	    color: black;
+ 	    min-height: 100%;
+ 	    margin: 0 auto;
+ 	}
+ 	.logo {
+ 	    max-height: 40px; 
+ 	}
+ 	.navbar-brand {
+ 	    padding: 0px;
+ 	}
+ 	.navbar-brand>img {
+ 	    height: 100%;
+ 	    padding: 4px;
+ 	    width: auto;
+ 	}
+ 	.navbar {
+ 	    margin-bottom: 0;
+ 	    border-radius: 0;
+ 	}
+ 	.pageFooter {
+ 	    position: relative;
+ 	    margin-top: -50px;
+ 	    height: 45px;
+ 	    clear: both;
+ 	}
+ 	.registerPassword {
+ 	    color: #465161;
+ 	}
+ 	.pageBody {
+ 	    min-height: calc(100vh - 100.5px);
+ 	}
+ 	.nav.navbar-nav.websiteLocation li a {
+ 	    color: white;
+ 	} 
+ 	.nav.navbar-nav.websiteLocation a:hover {
+ 	    color: #fffbe7;
+ 	}
+ 	.nav.navbar-nav.websiteLocation :focus,
+ 	.nav.navbar-nav.websiteLocation :hover {
+ 	    background-color: #4d4d4d;
+ 	}
+	.contactImages{
+		width: 600px;
+		height: 450px; 
+	}
+	.contactH2 {
+		font-size: 20px;
+		margin-top: 0;	
+		margin-bottom: 2px;
+		font-weight: 800;
+	}
+	.contactP {
+		padding-top: 15px;
+	}
+	.aContact {
+		color:#487c84
+	}
+	.aContact:hover, .aContact:focus {
+		color: #375f65;
+	}
+	.userPolicy {
+		color: #8aacb8;
+	}
+	 
+	.userPolicy:hover, .userPolicy:focus, .privacyPolicy:hover, .privacyPolicy:focus   {
+		color: #9ba9cf;
+	}
